@@ -9,12 +9,12 @@
   "measurementId": "G-R02MYLT76N",
   
   "productionTest": {
-    "database": "d28798hspql02v",
-    "username": "wqkbzhqfgyylfx",
-    "password": "7e5fac51d690f5cdd59287ec35abbb878fa6ccb3eb199960552b56d876361219",
-    "host": "ec2-54-204-40-248.compute-1.amazonaws.com",
+    "database": "heroku_7bab702db630689",
+    "username": "b0562654b38abe",
+    "password": "60f3aa72",
+    "host": "us-cdbr-east-04.cleardb.com",
     "logging": false,
-    "dialect": "postgres",
+    "dialect": "mysql",
     "pool": {
       "max": 5,
       "min": 0,
