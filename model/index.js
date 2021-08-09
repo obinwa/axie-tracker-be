@@ -2,7 +2,7 @@
 require("dotenv").config();
 const Sequelize = require("sequelize");
 const env = process.env.NODE_ENV || "development";
-const config = require("../config/database.json")[env];
+const config = require("../config/config.json")[env];
 const fs = require("fs");
 const path = require("path");
 const basename = path.basename(__filename);
