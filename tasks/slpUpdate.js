@@ -4,7 +4,7 @@ const scholar = require("../model/scholar");
 
 
 module.exports = function () {
-  cron.schedule('55 21 * * *',async () => { // runs by 8 am everyday
+  cron.schedule('55 23 * * *',async () => { // runs by 8 am everyday
     console.log("inside");
     await updateScholarsSlp();
   });
